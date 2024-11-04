@@ -1,8 +1,12 @@
+require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 const JwtStrategy = require("passport-jwt").Strategy,
-  ExtractJwt = require("passport-jwt").ExtractJwt;
+ExtractJwt = require("passport-jwt").ExtractJwt;
 const passport = require("passport");
+
+
+
 
 const User = require("./models/User");
 const authRoutes = require("./routes/auth");
@@ -48,7 +52,7 @@ if (process.env.NODE_ENV === "production") {
 // (2) connection options
 mongoose
   .connect(mongooseURI)
-  .then((x) => {
+  .then((_x) => {
     console.log("Connected to MongoDB");
   })
   .catch((err) => {

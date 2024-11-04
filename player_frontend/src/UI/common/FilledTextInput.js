@@ -19,7 +19,7 @@ const FilledTextInput = forwardRef((props, ref) => (
         borderBottomColor: "#fff",
       },
       "& .MuiInput-underline:after": {
-        borderBottomColor: "#e30085",
+        borderBottomColor: "#27a4d5",
       },
       "& .MuiInputBase-input": {
         color: "#fff",

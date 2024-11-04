@@ -42,7 +42,7 @@
   padding-bottom: 1.3rem;
   border-radius: 0.3rem;
   border: none;
-  background-color: #e30085;
+  background-color: #27a4d5;
   color: #fff;
   font-weight: 500;
   transition: 0.3s;
@@ -50,7 +50,7 @@
 }
 
 .search-song-button:hover {
-  background-color: #f36ca7;
+  background-color: #27a4d5;
 }
 
 @media (max-width: 768px) {

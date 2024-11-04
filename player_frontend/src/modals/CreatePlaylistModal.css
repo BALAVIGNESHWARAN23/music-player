@@ -27,7 +27,7 @@
   padding: 1rem;
   border-radius: 0.5rem;
   border: none;
-  background-color: #e30085;
+  background-color: #27a4d5;
   color: #fff;
   font-weight: 500;
   transition: 0.3s;
@@ -40,5 +40,5 @@
 }
 
 .create-playlist-button:hover {
-  background-color: #f36ca7;
+  background-color: #1d7ca2;
 }

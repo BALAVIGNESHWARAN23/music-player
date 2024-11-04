@@ -18,10 +18,10 @@ const TextInput = styled(TextField)(({ theme, error }) => ({
       borderColor: "#fff",
     },
     "&.Mui-focused fieldset": {
-      borderColor: error ? "red" : "#e30085", // Set borderColor to red on error
+      borderColor: error ? "red" : "#27a4d5", // Set borderColor to red on error
       borderWidth: "2px",
       "&:not(.Mui-error)": {
-        borderBottom: error ? "2px solid red" : "2px solid #e30085", // Set borderBottom to red on error
+        borderBottom: error ? "2px solid red" : "2px solid #27a4d5", // Set borderBottom to red on error
       },
     },
   },

@@ -7,7 +7,7 @@ import "./SignUp.css";
 import TextInput from "../UI/common/TextInput";
 import HiddenPasswordInput from "../UI/common/PasswordInout";
 import PurpleButton from "../UI/common/PurpleButton";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/wavilogowithname (1).png";
 
 import { makeUnauthenticatedPOSTRequest } from "../utils/serverHelper";
 

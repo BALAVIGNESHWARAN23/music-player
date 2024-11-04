@@ -16,7 +16,7 @@
 }
 
 .home-link:hover {
-  color: #e30085;
+  color: #27a4d5;
 }
 
 .add-song-container {
@@ -62,7 +62,7 @@
   padding-bottom: 1.3rem;
   border-radius: 0.3rem;
   border: none;
-  background-color: #e30085;
+  background-color: #27a4d5;
   color: #fff;
   font-weight: 500;
   transition: 0.3s;
@@ -71,7 +71,7 @@
 
 .submit-song-button:hover,
 .upload-song-button:hover {
-  background-color: #f36ca7;
+  background-color: #27a4d5;
 }
 
 .Toastify__toast {

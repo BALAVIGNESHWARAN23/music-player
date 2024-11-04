@@ -18,10 +18,10 @@ const PasswordInput = styled(TextField)(({ theme }) => ({
       borderColor: "#fff",
     },
     "&.Mui-focused fieldset": {
-      borderColor: "#e30085",
+      borderColor: "#27a4d5",
       borderWidth: "2px",
       "&:not(.Mui-error)": {
-        borderBottom: "2px solid #e30085",
+        borderBottom: "2px solid #27a4d5",
       },
     },
   },

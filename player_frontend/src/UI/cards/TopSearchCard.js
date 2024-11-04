@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import "./TopSearchCard.css";
 import songContext from "../../contexts/songContext";
+import Logo from "/githubreptasks/my_music_player/player_frontend/src/assets/images/weblogo2-Photoroom.png";
 
 const TopSearchCard = ({ openCreatePlaylistModal }) => {
   // eslint-disable-next-line no-unused-vars
@@ -29,6 +30,9 @@ const TopSearchCard = ({ openCreatePlaylistModal }) => {
       </Link>
 
       <div className="logout-btn-container">
+        <div className="logoname">
+      <img className="logo1" src={Logo} alt="logo" />
+      <h2 className="titlename">WAVI</h2></div>
         <div className="logout-btn" onClick={logout}>
           Log Out
         </div>

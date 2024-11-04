@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  
 }
 
 .login-form {
@@ -12,11 +13,12 @@
 }
 
 .login-button {
+ 
   margin-top: 1.5rem;
 }
 
 img {
-  width: 6rem;
+  width: 10rem;
 }
 
 .error-msg {
@@ -33,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #e30085;
+  color: #27a4d5;
 }
 
 .text-with-link {

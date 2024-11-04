@@ -10,7 +10,7 @@ import "./Login.css";
 import TextInput from "../UI/common/TextInput";
 import HiddenPasswordInput from "../UI/common/PasswordInout";
 import PurpleButton from "../UI/common/PurpleButton";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/wavilogowithname (1).png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -71,7 +71,8 @@ const Login = () => {
             id="outlined-basic"
             label="Enter your email"
             variant="outlined"
-            style={{ margin: "1.5rem 0rem 0 0rem" }}
+            style={{ margin: "1.5rem 0rem 0 0rem" ,
+            }}
             onChange={setEmailHandler}
             value={email}
           />
@@ -102,7 +103,7 @@ const Login = () => {
         <div>
           <p>
             <span className="text-with-link">Don't have an account?</span>
-            <Link to="sign-up">Sign up to Roam</Link>
+            <Link to="sign-up">Sign up to Wavi</Link>
           </p>
         </div>
       </div>
